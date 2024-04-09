@@ -1,0 +1,184 @@
+/* testimonial */
+.testimonial {
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 20px;
+  text-align: center;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.testimonial .title .testimonialheader {
+  margin-bottom: 20px;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.testimonial .title .txt {
+  color: rgb(107, 106, 106);
+  font-size: 14px;
+}
+
+.testimonial .title .txt .parapadding {
+  margin-bottom: 0px;
+}
+
+.testimonial .listwrap {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.testimonial .listwrap .profile {
+  width: 80px;
+  border-radius: 50%;
+  height: 80px;
+}
+
+.testimonial .listwrap .designation {
+  color: rgb(70, 190, 162);
+  font-size: small;
+  font-weight: 400;
+}
+
+.testimonial .listwrap .name {
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  font-size: medium;
+}
+
+.testimonial .listwrap .bordershade {
+  border-right: 1px solid rgb(222, 222, 222);
+}
+
+.testimonial .listwrap .description {
+  text-shadow: 0px 0px #3d3a3a;
+}
+
+@media only screen and (max-width: 992px) {
+  .testimonial .listwrap .bordershade{
+    border-right: none;
+  }
+}
+
+.testimonial .button {
+  background-color: #46bea2;
+  color: white;
+  width: 160px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 35px;
+  font-size: small;
+}
+
+/* faq question */
+.faq {
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.faq .image{
+  width: 100%;
+}
+
+.faq .maincontent{
+  text-align: left;
+  padding-top: 20px;
+}
+
+.faq .maincontent .logo{
+  height: 80px;
+  width: 140px;
+}
+
+.faq .maincontent .header{
+  text-shadow: 0px 0px #3d3a3a;
+  font-weight: 550;
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+.faq .maincontent .captionquestion{
+  color: rgb(63, 200, 168);
+  font-weight: 500;
+  font-size: larger;
+  margin-bottom: 3px;
+}
+.faq .maincontent .captionanswer
+{
+  color: rgb(163, 160, 160);
+  text-shadow: 0px 0px rgb(163, 160, 160);
+  font-size: 15px;
+}
+.faq .maincontent .paragraph{
+  text-shadow: 0px 0px #3d3a3a;
+  font-weight: 500;
+  font-size: medium;
+  padding-top: 10px;
+  width: 100%;
+  text-align: start;
+}
+
+/* css-1*/
+.features {
+  margin-top: 110px;
+  background: white;
+}
+
+.features p {
+  font-family: "Poppins", sans-serif;
+}
+
+.features .features_wrap h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.features .features_wrap .btn {
+  border: 2px;
+  border-radius: 25px;
+  background-color: #59c8a4;
+  width: 250px;
+  color: white;
+  height: 40px;
+}
+
+.features .features_wrap .card-body img {
+  padding-bottom: 10px;
+}
+
+/*css-2 */
+.process {
+  text-align: center;
+}
+
+.process .process_wrap1 h1 {
+  font-size: 40px;
+}
+
+.process .process_wrap1 p {
+  color: rgb(108, 106, 106);
+  margin-bottom: 0px;
+}
+
+.process .process_wrap2 {
+  margin-bottom: 50px;
+  margin-top: 50px
+}
+
+.process .process_wrap2 img {
+  width: 100%;
+  height: 100;
+}
+
+.process .process_wrap2 .fon2 {
+  font-weight: bold;
+}
+.process .process_wrap2 p {
+  text-align: start;
+  padding-left: 20px;
+}
